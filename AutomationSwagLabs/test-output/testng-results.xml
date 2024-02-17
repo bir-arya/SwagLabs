@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-17T10:40:00 IST" name="Default suite" finished-at="2024-02-17T10:40:09 IST" duration-ms="9344">
+  <suite started-at="2024-02-17T15:11:46 IST" name="Default suite" finished-at="2024-02-17T15:11:58 IST" duration-ms="11357">
     <groups>
     </groups>
-    <test started-at="2024-02-17T10:40:00 IST" name="Default test" finished-at="2024-02-17T10:40:09 IST" duration-ms="9344">
-      <class name="testClasses.TestLoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestLoginPage@2a265ea9]" started-at="2024-02-17T10:40:00 IST" name="setup" finished-at="2024-02-17T10:40:09 IST" duration-ms="9009" status="PASS">
+    <test started-at="2024-02-17T15:11:46 IST" name="Default test" finished-at="2024-02-17T15:11:58 IST" duration-ms="11357">
+      <class name="testClasses.TestCartPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:46 IST" name="setup" finished-at="2024-02-17T15:11:56 IST" duration-ms="10236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestUserNameField()[pri:0, instance:testClasses.TestLoginPage@2a265ea9]" started-at="2024-02-17T10:40:09 IST" name="TestUserNameField" finished-at="2024-02-17T10:40:09 IST" duration-ms="243" status="PASS">
+        <test-method signature="test_CheckCartItem()[pri:1, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CheckCartItem" finished-at="2024-02-17T15:11:57 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestUserNameField -->
-      </class> <!-- testClasses.TestLoginPage -->
+        </test-method> <!-- test_CheckCartItem -->
+        <test-method signature="test_CartClickCheckOutButton()[pri:2, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartClickCheckOutButton" finished-at="2024-02-17T15:11:57 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CartClickCheckOutButton -->
+        <test-method signature="test_CartFirstNameField()[pri:3, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartFirstNameField" finished-at="2024-02-17T15:11:57 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CartFirstNameField -->
+        <test-method signature="test_CartlastNameField()[pri:4, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartlastNameField" finished-at="2024-02-17T15:11:57 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CartlastNameField -->
+        <test-method signature="test_CartPostalCodeField()[pri:5, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartPostalCodeField" finished-at="2024-02-17T15:11:57 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CartPostalCodeField -->
+        <test-method signature="test_CartContinueButton()[pri:6, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartContinueButton" finished-at="2024-02-17T15:11:57 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CartContinueButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="teardown" finished-at="2024-02-17T15:11:58 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.TestCartPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

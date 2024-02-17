@@ -2,16 +2,19 @@ package testClasses;
 
 import java.io.FileNotFoundException;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.BaseSetup;
 import pageObject.Login;
+import pageObject.Products;
 
 public class TestLoginPage extends BaseSetup {
 
 	public Login login;
+	public Products prod;
 	
 	public TestLoginPage()
 	{
@@ -40,7 +43,13 @@ public class TestLoginPage extends BaseSetup {
 	@Test
 	public void testLoginButton()
 	{
-		login.login_loginButton();
+		prod = login.login_loginButton();
+	}
+	
+	@AfterTest
+	public void teardown()
+	{
+		driver.quit();
 	}
 	
 	

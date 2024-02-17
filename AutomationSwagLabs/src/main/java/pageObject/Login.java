@@ -27,9 +27,10 @@ public class Login extends BaseSetup {
 		passwordField.sendKeys(password);
 	}
 	
-	public void login_loginButton()
+	public Products login_loginButton()
 	{
 		loginButton.click();
+		return new Products();
 	}
 	
 }

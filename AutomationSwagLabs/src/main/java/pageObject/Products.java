@@ -45,7 +45,8 @@ public class Products extends BaseSetup {
 		}
 				
 	}
-
+	
+	//navigate to cart
 	public CartPage product_NavigateToCart() {
 		
 		cartButton.click();

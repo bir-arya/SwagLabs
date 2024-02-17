@@ -70,6 +70,7 @@ public class TestCartPage extends BaseSetup{
 		cart.cart_PostalCodeField("23923");
 	}
 	
+	//test
 	@Test(priority = 6)	
 	public void test_CartContinueButton()
 	{

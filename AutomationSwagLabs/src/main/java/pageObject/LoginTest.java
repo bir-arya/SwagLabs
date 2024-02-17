@@ -6,13 +6,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.BaseSetup;
 
-public class Login extends BaseSetup {
+public class LoginTest extends BaseSetup {
 
 	@FindBy (xpath = "//input[@id='user-name']") WebElement userNameField;
 	@FindBy (css = "input[id='password']") WebElement passwordField;
 	@FindBy (css = "input[id='login-button']") WebElement loginButton;
 	
-	public Login()
+	public LoginTest()
 	{
 		PageFactory.initElements(driver, this);
 	}
@@ -27,10 +27,10 @@ public class Login extends BaseSetup {
 		passwordField.sendKeys(password);
 	}
 	
-	public Products login_loginButton()
+	public ProductsTest login_loginButton()
 	{
 		loginButton.click();
-		return new Products();
+		return new ProductsTest();
 	}
 	
 }

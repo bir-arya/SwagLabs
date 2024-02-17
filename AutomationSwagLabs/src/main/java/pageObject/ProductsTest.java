@@ -10,13 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.BaseSetup;
 
-public class Products extends BaseSetup {
+public class ProductsTest extends BaseSetup {
 
 	@FindBy (css = "div.inventory_item_name") WebElement productsName;
 	public	List<WebElement> addToCartButton = driver.findElements(By.xpath("//button[@class='btn btn_primary btn_small btn_inventory ']"));
 	@FindBy (css = "a.shopping_cart_link") WebElement cartButton;
 
-	public Products()
+	public ProductsTest()
 	{
 		PageFactory.initElements(driver, this);
 	}
@@ -47,9 +47,9 @@ public class Products extends BaseSetup {
 	}
 	
 	
-	public CartPage product_NavigateToCart() {
+	public CartTest product_NavigateToCart() {
 		
 		cartButton.click();
-		return new CartPage();
+		return new CartTest();
 	}
 }

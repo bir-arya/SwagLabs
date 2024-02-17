@@ -8,15 +8,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.BaseSetup;
-import pageObject.Login;
-import pageObject.Products;
+import pageObject.LoginTest;
+import pageObject.ProductsTest;
 
-public class TestLoginPage extends BaseSetup {
+public class LoginPageTest extends BaseSetup {
 
-	public Login login;
-	public Products prod;
+	public LoginTest login;
+	public ProductsTest prod;
 	
-	public TestLoginPage()
+	public LoginPageTest()
 	{
 		super();
 	}
@@ -25,22 +25,22 @@ public class TestLoginPage extends BaseSetup {
 	public void setup()
 	{
 		initialization();
-		login = new Login();
+		login = new LoginTest();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void testUserNameField()
 	{
 		login.login_UserNamefield("standard_user");
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void testPasswordField()
 	{
 		login.login_Passwordfield("secret_sauce");
 	}
 	
-	@Test
+	@Test(priority = 3)
 	public void testLoginButton()
 	{
 		prod = login.login_loginButton();

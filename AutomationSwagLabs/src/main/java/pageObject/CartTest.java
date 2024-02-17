@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.BaseSetup;
 
-public class CartPage extends BaseSetup {
+public class CartTest extends BaseSetup {
 
 	@FindBy (css = "div.inventory_item_name") WebElement productName;
 	@FindBy (css = "button[id='checkout']") WebElement checkOutButton;
@@ -16,7 +16,7 @@ public class CartPage extends BaseSetup {
 	@FindBy (css = "input[id='continue']") WebElement continueButton;
 	
 	
-	public CartPage()
+	public CartTest()
 	{
 		PageFactory.initElements(driver, this);
 	}

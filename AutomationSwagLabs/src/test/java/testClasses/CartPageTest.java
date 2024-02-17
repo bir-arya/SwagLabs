@@ -6,20 +6,20 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import base.BaseSetup;
-import pageObject.CartPage;
-import pageObject.Login;
-import pageObject.Products;
+import pageObject.CartTest;
+import pageObject.LoginTest;
+import pageObject.ProductsTest;
 
-public class TestCartPage extends BaseSetup{
+public class CartPageTest extends BaseSetup{
 
 	boolean checkItem;
-	Login login;
-	Products prod;
-	CartPage cart;
+	LoginTest login;
+	ProductsTest prod;
+	CartTest cart;
 	
 	SoftAssert soft = new SoftAssert();
 	
-	public TestCartPage()
+	public CartPageTest()
 	{
 		super();
 	}
@@ -28,12 +28,12 @@ public class TestCartPage extends BaseSetup{
 	public void setup()
 	{
 		initialization();
-		login = new Login();
+		login = new LoginTest();
 		login.login_UserNamefield("standard_user");
 		login.login_Passwordfield("secret_sauce");
 		login.login_loginButton();
 		
-		prod = new Products();
+		prod = new ProductsTest();
 		prod.product_selectProduct();
 		cart = prod.product_NavigateToCart();
 		

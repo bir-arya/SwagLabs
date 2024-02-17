@@ -5,17 +5,17 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.BaseSetup;
-import pageObject.CartPage;
-import pageObject.Login;
-import pageObject.Products;
+import pageObject.CartTest;
+import pageObject.LoginTest;
+import pageObject.ProductsTest;
 
-public class TestProducts extends BaseSetup{
+public class ProductsPageTest extends BaseSetup{
 
-	Login login;
-	Products prod;
-	CartPage cart;
+	LoginTest login;
+	ProductsTest prod;
+	CartTest cart;
 	
-	public TestProducts()
+	public ProductsPageTest()
 	{
 		super();
 	}
@@ -24,7 +24,7 @@ public class TestProducts extends BaseSetup{
 	public void setup()
 	{
 		initialization();
-		login= new Login();
+		login= new LoginTest();
 		login.login_UserNamefield("standard_user");
 		login.login_Passwordfield("secret_sauce");
 		prod = login.login_loginButton();

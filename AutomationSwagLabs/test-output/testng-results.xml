@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-17T15:11:46 IST" name="Default suite" finished-at="2024-02-17T15:11:58 IST" duration-ms="11357">
+  <suite started-at="2024-02-17T15:24:02 IST" name="Default suite" finished-at="2024-02-17T15:24:11 IST" duration-ms="9065">
     <groups>
     </groups>
-    <test started-at="2024-02-17T15:11:46 IST" name="Default test" finished-at="2024-02-17T15:11:58 IST" duration-ms="11357">
+    <test started-at="2024-02-17T15:24:02 IST" name="Default test" finished-at="2024-02-17T15:24:11 IST" duration-ms="9065">
       <class name="testClasses.TestCartPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:46 IST" name="setup" finished-at="2024-02-17T15:11:56 IST" duration-ms="10236" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:02 IST" name="setup" finished-at="2024-02-17T15:24:09 IST" duration-ms="7680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_CheckCartItem()[pri:1, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CheckCartItem" finished-at="2024-02-17T15:11:57 IST" duration-ms="120" status="PASS">
+        <test-method signature="test_CheckCartItem()[pri:1, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:09 IST" name="test_CheckCartItem" finished-at="2024-02-17T15:24:10 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CheckCartItem -->
-        <test-method signature="test_CartClickCheckOutButton()[pri:2, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartClickCheckOutButton" finished-at="2024-02-17T15:11:57 IST" duration-ms="105" status="PASS">
+        <test-method signature="test_CartClickCheckOutButton()[pri:2, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="test_CartClickCheckOutButton" finished-at="2024-02-17T15:24:10 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CartClickCheckOutButton -->
-        <test-method signature="test_CartFirstNameField()[pri:3, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartFirstNameField" finished-at="2024-02-17T15:11:57 IST" duration-ms="145" status="PASS">
+        <test-method signature="test_CartFirstNameField()[pri:3, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="test_CartFirstNameField" finished-at="2024-02-17T15:24:10 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CartFirstNameField -->
-        <test-method signature="test_CartlastNameField()[pri:4, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartlastNameField" finished-at="2024-02-17T15:11:57 IST" duration-ms="88" status="PASS">
+        <test-method signature="test_CartlastNameField()[pri:4, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="test_CartlastNameField" finished-at="2024-02-17T15:24:10 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CartlastNameField -->
-        <test-method signature="test_CartPostalCodeField()[pri:5, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartPostalCodeField" finished-at="2024-02-17T15:11:57 IST" duration-ms="101" status="PASS">
+        <test-method signature="test_CartPostalCodeField()[pri:5, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="test_CartPostalCodeField" finished-at="2024-02-17T15:24:10 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CartPostalCodeField -->
-        <test-method signature="test_CartContinueButton()[pri:6, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="test_CartContinueButton" finished-at="2024-02-17T15:11:57 IST" duration-ms="105" status="PASS">
+        <test-method signature="test_CartContinueButton()[pri:6, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="test_CartContinueButton" finished-at="2024-02-17T15:24:10 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CartContinueButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:11:57 IST" name="teardown" finished-at="2024-02-17T15:11:58 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.TestCartPage@2cf3d63b]" started-at="2024-02-17T15:24:10 IST" name="teardown" finished-at="2024-02-17T15:24:11 IST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

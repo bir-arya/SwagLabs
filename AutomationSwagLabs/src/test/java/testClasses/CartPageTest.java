@@ -31,7 +31,7 @@ public class CartPageTest extends BaseSetup{
 		login = new LoginTest();
 		login.login_UserNamefield("standard_user");
 		login.login_Passwordfield("secret_sauce");
-		login.login_loginButton();
+		login.zlogin_loginButton();
 		
 		prod = new ProductsTest();
 		prod.product_selectProduct();

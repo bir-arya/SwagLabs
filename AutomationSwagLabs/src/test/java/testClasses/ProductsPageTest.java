@@ -27,7 +27,7 @@ public class ProductsPageTest extends BaseSetup{
 		login= new LoginTest();
 		login.login_UserNamefield("standard_user");
 		login.login_Passwordfield("secret_sauce");
-		prod = login.login_loginButton();
+		prod = login.zlogin_loginButton();
 		
 	}
 	
